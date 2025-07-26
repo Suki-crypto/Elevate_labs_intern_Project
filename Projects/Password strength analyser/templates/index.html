@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Password Strength Analyzer</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Password Analyzer</h1>
+    <form id="analyzerForm">
+      <label>Password:</label>
+      <input type="password" name="password" required>
+      <label>Personal Info (name, pet, DOB):</label>
+      <input type="text" name="info" required>
+      <button type="submit">Analyze</button>
+    </form>
+
+    <div id="result"></div>
+    <a id="downloadLink" href="/download" download style="display:none;">Download Wordlist</a>
+  </div>
+
+  <script>
+    document.getElementById('analyzerForm').onsubmit = async function(e) {
+      e.preventDefault();
+      const formData = new FormData(this);
+      const res = await fetch('/analyze', {
+        method: 'POST',
+        body: formData
+      });
+
+      const data = await res.json();
+      document.getElementById('result').innerHTML = `
+        <p><strong>Strength Score:</strong> ${data.score} / 4</p>
+        <p><strong>Feedback:</strong> ${data.feedback}</p>
+      `;
+      document.getElementById('downloadLink').style.display = 'inline';
+    };
+  </script>
+</body>
+</html>
