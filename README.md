@@ -6,17 +6,14 @@ Project 1 - Secure File Storage System with AES.
   Flask – Lightweight web framework for Python to create the web app, 
   Cryptography Library – For AES-256 encryption and decryption, 
   HTML/CSS – Used to design the web-based user interface, 
-  Hashlib – For generating SHA-256 file hashes to verify file integrity, 
+  Hashlib – For generating SHA-256 file hashes to verify file integrity.
 
-AES-secured file storage app with integrity verification was build successfully.
-
-Project 2 - Password Strength Analyzer with Custom Wordlist Generator 
+Project 2 - Password Strength Analyzer with Custom Wordlist Generator.
   The goal of this project is to build a tool to analyze password strength and generate custom wordlists. The tools used for this project are;
   Python - Backend programming, 
   Flask - Web framework, 
   zxcvbn - Password strength analysis, 
   HTML/CSS - Frontend structure and styling, 
   JavaScript - Handling form submission and responses, 
-  Jinja2 (Flask) - HTML templating, 
+  Jinja2 (Flask) - HTML templating.
 
-The tool for analyzing the strength of the passwords was created successfully.
