@@ -9,7 +9,7 @@ Project 1 - Secure File Storage System with AES.
   Hashlib – For generating SHA-256 file hashes to verify file integrity.
 Run
   python app.py
-  # Visit http://localhost:5000
+  #Visit http://localhost:5000
 
 Project 2 - Password Strength Analyzer with Custom Wordlist Generator.
   The goal of this project is to build a tool to analyze password strength and generate custom wordlists. The tools used for this project are;
@@ -21,5 +21,5 @@ Project 2 - Password Strength Analyzer with Custom Wordlist Generator.
   Jinja2 (Flask) - HTML templating.
 Run
   python app.py
-  # Visit http://localhost:5000
+  #Visit http://localhost:5000
   
