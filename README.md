@@ -25,9 +25,10 @@ A web application that enables secure encryption and decryption of files using A
 - Responsive dark-themed UI:
   - Button highlighting on hover  
   - Auto-resizing elements
- 
-Run
 '''
+ ### 🚀 Run
+bash
+pip install flask zxcvbn nltk
 python app.py
 #Visit http://localhost:5000
 '''
@@ -57,9 +58,10 @@ A web app that evaluates password strength and shows how attackers can create cu
   - Leetspeak  
   - Appended years  
 - Download option for wordlist
-
-Run
 '''
+🚀 Run
+bash
+pip install flask cryptography
 python app.py
 #Visit http://localhost:5000
 '''
