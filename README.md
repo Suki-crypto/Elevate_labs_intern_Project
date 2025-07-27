@@ -7,12 +7,6 @@ Project 1 - Secure File Storage System with AES.
   Cryptography Library – For AES-256 encryption and decryption, 
   HTML/CSS – Used to design the web-based user interface, 
   Hashlib – For generating SHA-256 file hashes to verify file integrity.
-Run
-'''
-  python app.py
-  #Visit http://localhost:5000
-'''
----
 
 Project 2 - Password Strength Analyzer with Custom Wordlist Generator.
   The goal of this project is to build a tool to analyze password strength and generate custom wordlists. The tools used for this project are;
@@ -22,9 +16,3 @@ Project 2 - Password Strength Analyzer with Custom Wordlist Generator.
   HTML/CSS - Frontend structure and styling, 
   JavaScript - Handling form submission and responses, 
   Jinja2 (Flask) - HTML templating.
-Run
-'''
-  python app.py
-  #Visit http://localhost:5000
-'''
-  
