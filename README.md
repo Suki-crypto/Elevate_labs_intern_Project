@@ -1,3 +1,4 @@
+'''
 As for the final phase of my internship in Elevate Labs, I have completed two projects from the given list of project.
 ---
 
@@ -25,13 +26,13 @@ A web application that enables secure encryption and decryption of files using A
 - Responsive dark-themed UI:
   - Button highlighting on hover  
   - Auto-resizing elements
-'''
+
  ### 🚀 Run
 bash
 pip install flask zxcvbn nltk
 python app.py
 #Visit http://localhost:5000
-'''
+
 ---
 
 ## ✅ Project 2 - Password Strength Analyzer with Custom Wordlist Generator
@@ -58,7 +59,7 @@ A web app that evaluates password strength and shows how attackers can create cu
   - Leetspeak  
   - Appended years  
 - Download option for wordlist
-'''
+
 🚀 Run
 bash
 pip install flask cryptography
